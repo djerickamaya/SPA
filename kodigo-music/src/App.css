@@ -1,0 +1,161 @@
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgba(82, 161, 192, 0.87);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: rgba(138, 54, 54, 0.87);
+}
+
+.history p {
+  text-align: justify;
+  color: rgba(141, 179, 189, 0.87);
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+}
+
+.album-card {
+  background-color: #282828;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.2s;
+  width: 200px;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.album-card h2, .album-card p {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.album-card h2 {
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+}
+
+.album-card p {
+  font-size: 16px;
+  color: rgba(102, 89, 89, 0.87);
+}
+
+.player {
+  background-color: #7c5111;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.player-margins {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.player button {
+  background-color: #282828;
+  color: #aca6a6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.player button:hover {
+  background-color: #1a1a1a;
+}
+
+
+
+
+.container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: rgba(98, 105, 146, 0.87);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+  color: rgba(154, 151, 202, 0.87);
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0 20px;
+  border-radius: 5px;
+  border: 1px solid #068826;
+  width: 80%;
+}
+
+span {
+  color: #e22e2e;
+  font-size: 14px;
+}
+
+button {
+  background-color: #0a4920;
+  color: #070707;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1a1a1a;
+}
